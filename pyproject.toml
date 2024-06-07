@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "neural-network-from-scratch"
+version = "0.1.0"
+description = "A personal project to understand the fundamentals of neural networks and program them from scratch, it includes perceptron, multilayer perceptron, feedforward, backpropagation, gradient descent, Adam, RMSprop, momentum."
+authors = ["Luis A Lopez Atencio <luisangellopezatencio@outlook.com>"]
+readme = "README.md"
+packages = [{include = "neural_network_from_scratch"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+numpy = "^1.26.4"
+matplotlib = "^3.9.0"
+tqdm = "^4.66.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
