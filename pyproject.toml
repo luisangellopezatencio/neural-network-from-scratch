@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "neural-network-from-scratch"
 version = "0.1.0"
-description = "A personal project to understand the fundamentals of neural networks and program them from scratch, it includes perceptron, multilayer perceptron, feedforward, backpropagation, gradient descent, Adam, RMSprop, momentum."
+description = "A personal project to understand the fundamentals of neural networks and program them from scratch, it includes perceptron, multilayer perceptron, feedforward, backpropagation, gradient descent"
 authors = ["Luis A Lopez Atencio <luisangellopezatencio@outlook.com>"]
 readme = "README.md"
 packages = [{include = "neural_network_from_scratch"}]
